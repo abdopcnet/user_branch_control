@@ -242,3 +242,9 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    {"doctype": "Custom Field", "filters": [["module", "=", "User Branch Control"]]},
+    {"doctype": "Property Setter", "filters": [["module", "=", "User Branch Control"]]},
+    {"doctype": "Client Script", "filters": [["module", "=", "User Branch Control"]]},
+    {"doctype": "Server Script", "filters": [["module", "=", "User Branch Control"]]},
+]
